@@ -5,7 +5,7 @@ from generator import format_response, log_interaction
 
 def main():
     """
-    Main function to run the Mistral AI chatbot CLI.
+        Main function to run the Mistral AI chatbot CLI.
     """
     print("Welcome to the Mistral AI Chatbot. Type 'exit' to quit.")
     

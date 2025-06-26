@@ -3,7 +3,6 @@ from dotenv import load_dotenv
 
 # Load environment variables from .env file
 load_dotenv()
-
 # Retrieve the API key
 API_KEY = os.getenv("MISTRAL_API_KEY")
 

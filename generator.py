@@ -3,14 +3,14 @@ import json
 
 def format_response(prompt, response_text):
     """
-    Format the response into a structured JSON object.
+        Format the response into a structured JSON object.
 
-    Args:
-    prompt (str): Tthe user's input prompt.
-    response_text (str): The generated response from the API.
+        Args:
+        prompt (str): Tthe user's input prompt.
+        response_text (str): The generated response from the API.
 
-    Returns:
-    dict: A dictionary containing the prompt, response and timestamp.
+        Returns:
+        dict: A dictionary containing the prompt, response and timestamp.
     """
 
     return {
